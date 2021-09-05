@@ -38,6 +38,10 @@ for titles in ttls:
 image_title.remove('Back')
 print(image_title)
 
+
+# The only was to get the next part of the code to work was
+# to reimport all the dependencies
+
 # Import Splinter and BeautifulSoup
 from splinter import Browser
 from bs4 import BeautifulSoup as soup
