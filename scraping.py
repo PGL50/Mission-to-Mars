@@ -110,7 +110,7 @@ def hemi_data(browser):
     import re
     
     executable_path = {'executable_path': ChromeDriverManager().install()}
-    browser = Browser('chrome', **executable_path, headless=False)
+    browser = Browser('chrome', **executable_path, headless=True)
 
     url = 'https://marshemispheres.com/'
     browser.visit(url)
@@ -150,7 +150,7 @@ def hemi_data(browser):
     import re
 
     executable_path = {'executable_path': ChromeDriverManager().install()}
-    browser = Browser('chrome', **executable_path, headless=False)
+    browser = Browser('chrome', **executable_path, headless=True)
 
     full_images = []
 
