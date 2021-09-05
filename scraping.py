@@ -102,6 +102,9 @@ def mars_facts():
     return df.to_html(classes="table table-striped")
 
 def hemi_data(browser):
+    # The only way to get the following code to run was to
+    # import the dependencies again
+    
     # Import Splinter and BeautifulSoup
     from splinter import Browser
     from bs4 import BeautifulSoup as soup
